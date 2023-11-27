@@ -11,7 +11,7 @@ export const Feature = (props: FeatureProps) => {
     return (
         <HStack {...rest} spacing={['1.98em', '1.98em', '1.5em']}>
             <Icon as={icon} boxSize={'2.5rem'} />
-            <Text fontSize='1.125rem' fontWeight='bold' textAlign='left'>{children}</Text>
+            <Text fontSize='lg' fontWeight='bold' textAlign='left'>{children}</Text>
         </HStack>
     )
 }
