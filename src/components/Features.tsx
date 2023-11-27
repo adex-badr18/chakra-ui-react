@@ -9,7 +9,7 @@ interface FeatureProps extends StackProps {
 export const Feature = (props: FeatureProps) => {
     const { children, icon, ...rest } = props;
     return (
-        <HStack {...rest} spacing={['1.98em', '1.98em', '1.5em']}>
+        <HStack {...rest} spacing={['8', '8', '6']}>
             <Icon as={icon} boxSize={'2.5rem'} />
             <Text fontSize='lg' fontWeight='bold' textAlign='left'>{children}</Text>
         </HStack>
@@ -19,8 +19,8 @@ export const Feature = (props: FeatureProps) => {
 
 export const Features = () => {
     return (
-        <Box maxW='994px' mx='auto' px='48px' my='3.5rem'>
-            <Stack color='#171923' spacing={['2.4em', '2.4em', '1.56rem']} direction={['column', 'column', 'row']}>
+        <Box maxW='994px' mx='auto' px='12' my='14'>
+            <Stack color='#171923' spacing={['10', '10', '6']} direction={['column', 'column', 'row']}>
                 <Feature icon={MoneyBackGuarantee}>
                     30 days money back Guarantee
                 </Feature>
