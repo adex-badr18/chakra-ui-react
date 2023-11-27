@@ -1,4 +1,4 @@
-import { Box, Flex, Text, Button, Stack, StackProps, HStack, VStack, Icon } from "@chakra-ui/react";
+import { Box, Flex, Text, Button, Stack, StackProps, HStack, Icon } from "@chakra-ui/react";
 import { CheckIcon } from "../icons/Icons";
 
 export const ListItem = (props: StackProps) => {
@@ -10,7 +10,6 @@ export const ListItem = (props: StackProps) => {
         </HStack>
     )
 }
-
 
 export const Pricing = () => {
     return (
